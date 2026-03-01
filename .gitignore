@@ -1,0 +1,36 @@
+# ============================================================
+# JUSTICE — .gitignore
+# ============================================================
+
+# ---- ROS2 / Colcon Build Artifacts ----
+build/
+install/
+log/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+*.eggs/
+
+# ---- Model Ağırlıkları (büyük dosyalar — Git LFS veya ayrı indirme) ----
+# YOLO model (~20MB)
+justice/tracking/snapshot/best.pt
+# TCTrack model (~114MB)
+justice/tracking/snapshot/TCTrack.pth
+
+# ---- Diğer büyük dizinler ----
+Meryem_GPS/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
