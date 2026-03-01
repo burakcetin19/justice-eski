@@ -594,12 +594,4 @@ Simülasyonu başlatmadan önce bu listeyi takip edin:
 - [ ] Hedef uçak ~50m irtifada uçuyor
 - [ ] Takipçi uçak ARM + takeoff yapılmış
 
----
 
-## 📜 Lisans
-
-Apache-2.0
-
-## 👥 Ekip
-
-**HAVK Takımı** — TEKNOFEST Savaşan İHA
