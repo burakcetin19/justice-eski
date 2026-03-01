@@ -208,7 +208,7 @@ PX4_SYS_AUTOSTART=4007 \
 PX4_GZ_MODEL_POSE="0,0,0,0,0,0" \
 PX4_INSTANCE=0 \
 PX4_UXRCE_DDS_PORT=8888 \
-make px4_sitl gz_rc_cessna
+make px4_sitl gz_rc_cessna_mono_cam
 ```
 
 PX4 konsolu (`pxh>`) açılınca DDS client durumunu doğrulayın:
