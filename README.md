@@ -54,42 +54,6 @@ Drone, hedefe uzaktayken GPS koordinatları ile L1 Guidance algoritması üzerin
 │                  │         ↕ PX4 micro-XRCE-DDS         │
 └──────────────────┴──────────────────────────────────────┘
 
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/359cdbbd-2873-499c-9064-3d12f18401b9" width="600" alt="rosgraph">
-  <p><b>Şekil 1:</b> Sistem Düğüm ve Haberleşme Grafiği (rqt_graph)</p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 **Durum Geçişleri:**
