@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <model name="hedef_qr">
+    <static>true</static>
+    
+    <link name="center_base">
+      <pose>0 0 0.1 0 0 0</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>2.0 2.0 0.05</size></box>
+        </geometry>
+       <material>
+          <diffuse>1 1 1 1</diffuse> <pbr>
+            <metal>
+              <albedo_map>model://hedef_qr/materials/textures/qr_code.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+       </visual>
+      <collision name="collision">
+        <geometry>
+          <box><size>2.0 2.0 0.05</size></box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="north_plate">
+      <pose>0 1.2 0.5 0.785 0 0</pose> 
+      <visual name="visual">
+        <geometry>
+          <box><size>2.0 1.0 0.05</size></box>
+        </geometry>
+        <material>
+          <ambient>0.8 0.1 0.1 1</ambient>
+          <diffuse>0.8 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="south_plate">
+      <pose>0 -1.2 0.5 -0.785 0 0</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>2.0 1.0 0.05</size></box>
+        </geometry>
+        <material>
+          <ambient>0.8 0.1 0.1 1</ambient>
+          <diffuse>0.8 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="east_plate">
+      <pose>1.2 0 0.5 0 -0.785 0</pose> 
+      <visual name="visual">
+        <geometry>
+          <box><size>1.0 2.0 0.05</size></box>
+        </geometry>
+        <material>
+          <ambient>0.8 0.1 0.1 1</ambient>
+          <diffuse>0.8 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="west_plate">
+      <pose>-1.2 0 0.5 0 0.785 0</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>1.0 2.0 0.05</size></box>
+        </geometry>
+        <material>
+          <ambient>0.8 0.1 0.1 1</ambient>
+          <diffuse>0.8 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>
